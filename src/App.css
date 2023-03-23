@@ -50,7 +50,9 @@ button {
 	color: var(--lightGreen);
 }
 
-/* Section1 */
+/* ========================= */
+/* Section 1
+/* ========================= */
 
 .section1 {
 	background-color: var(--verydarkGreen);
@@ -72,7 +74,9 @@ button {
 	width: 100%;
 }
 
-/* Section2 */
+/* ========================= */
+/* Section 2
+/* ========================= */
 
 .section2 {
 	background-color: var(--lightGrey);
@@ -85,11 +89,12 @@ button {
 .list-item {
 	display: flex;
 	align-items: center;
-	height: 2rem;
+	height: 1.9rem;
 }
 
 .list-item-text {
 	padding: 0 10px;
+	line-height: 0.9rem;
 }
 
 .s2choose {
@@ -168,3 +173,7 @@ button {
 	color: var(--lightGreen);
 	border: 1px solid var(--lightGreen);
 }
+
+/* ========================= */
+/* Section 3
+/* ========================= */
