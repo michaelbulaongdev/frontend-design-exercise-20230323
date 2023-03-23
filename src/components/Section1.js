@@ -27,6 +27,7 @@ export default function Section1() {
 					</Grid>
 					<Grid
 						item
+						pb={1}
 						sm={6}
 						sx={{
 							display: 'flex',

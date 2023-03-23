@@ -17,14 +17,33 @@ h2 {
 	font-weight: 700;
 }
 
+h3 {
+	color: var(--lightGreen);
+	font-size: 1.5rem;
+}
+
 h4 {
 	color: var(--lightGreen);
 	font-size: 0.8rem;
 }
 
 p {
+	font-weight: 400;
 	font-size: 0.8rem;
 	line-height: 1.3rem;
+}
+
+button {
+	min-width: 50px;
+	width: 140px;
+	height: 35px;
+	border-radius: 8px;
+	border: none;
+	margin: 0 10px;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 0.8rem;
+	transition: all 0.3s;
 }
 
 .check-icon {
@@ -35,7 +54,6 @@ p {
 
 .section1 {
 	background-color: var(--verydarkGreen);
-	display: flex;
 }
 
 .section1-title {
@@ -58,8 +76,6 @@ p {
 
 .section2 {
 	background-color: var(--lightGrey);
-	display: flex;
-	flex-direction: column;
 }
 
 .s2launch-title {
@@ -74,4 +90,81 @@ p {
 
 .list-item-text {
 	padding: 0 10px;
+}
+
+.s2choose {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.s2choose-title {
+	color: var(--darkGrey);
+}
+
+.s2choose-text {
+	color: var(--darkGrey);
+	font-weight: 600;
+	font-size: 0.7rem;
+}
+
+.card {
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid var(--lightGreen);
+	box-shadow: 5px 10px 20px lightgray;
+	padding: 0 30px;
+	padding-top: 5px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.card-title {
+	font-size: 1.1rem;
+}
+
+.card-text {
+	font-size: 0.7rem;
+	line-height: 1rem;
+	position: relative;
+	bottom: 20px;
+}
+
+.card-bottom {
+	display: flex;
+	align-items: center;
+	position: relative;
+	bottom: 1rem;
+}
+
+.card-price {
+	font-weight: 700;
+	font-size: 1.1rem;
+	position: relative;
+	bottom: 0.7rem;
+	padding-right: 1rem;
+}
+
+.btn-enquire {
+	background-color: var(--verydarkGreen);
+	color: white;
+}
+
+.btn-enquire:hover {
+	background-color: white;
+	color: var(--verydarkGreen);
+	border: 1px solid var(--verydarkGreen);
+}
+
+.btn-buy {
+	background-color: var(--lightGreen);
+	color: white;
+}
+
+.btn-buy:hover {
+	background-color: white;
+	color: var(--lightGreen);
+	border: 1px solid var(--lightGreen);
 }

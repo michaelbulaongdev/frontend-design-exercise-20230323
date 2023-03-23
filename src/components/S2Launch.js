@@ -1,5 +1,5 @@
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import {Grid} from '@mui/material';
+import {Box, Grid} from '@mui/material';
 
 const list1 = [
 	'Business plans',
@@ -17,7 +17,7 @@ const list2 = [
 
 export default function S2Launch() {
 	return (
-		<article>
+		<Box sx={{maxWidth: 'md', p: 3, m: '0 auto'}}>
 			<h4>Become an RTO</h4>
 			<h2 className='s2launch-title'>Launch Your RTO With Ease!</h2>
 			<p>
@@ -29,7 +29,7 @@ export default function S2Launch() {
 				complete your initial RTO registration period, get your RTO registered,
 				and long into the future.
 			</p>
-			<Grid container spacing={{md: 10}}>
+			<Grid container py={1} spacing={{md: 10}}>
 				<Grid item>
 					{list1.map((item) => {
 						return (
@@ -56,6 +56,6 @@ export default function S2Launch() {
 				RTO registration process (set up the RTO for you), contact us today to
 				let us know how we can help you achieve your goals.
 			</p>
-		</article>
+		</Box>
 	);
 }
