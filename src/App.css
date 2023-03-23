@@ -7,22 +7,34 @@
 	--lightBlue: #e5eced;
 }
 
-h1 h3 h4 {
-	color: var(--lightGreen);
-}
+/* Section1 */
 
 .section1 {
 	background-color: var(--verydarkGreen);
+	min-width: 300px;
 }
 
-h1.section1 {
-	font-size: 1.5 rem;
+.section1-title {
+	color: var(--lightGreen);
+	font-size: 3rem;
+	font-weight: 700;
 }
 
-p.section1 {
+.section1-text {
 	color: white;
-	font-size: 1rem;
+	font-size: 0.9rem;
+	font-weight: 500;
+	position: relative;
+	bottom: 25px;
 }
+
+.section1-pic {
+	object-fit: contain;
+	border-radius: 20px;
+	width: 100%;
+}
+
+/* Section2 */
 
 .section2 {
 	background-color: var(--lightGrey);
