@@ -11,12 +11,17 @@ h1 h3 h4 {
 	color: var(--lightGreen);
 }
 
-h2 {
-	color: var(--darkGreen);
-}
-
 .section1 {
 	background-color: var(--verydarkGreen);
+}
+
+h1.section1 {
+	font-size: 1.5 rem;
+}
+
+p.section1 {
+	color: white;
+	font-size: 1rem;
 }
 
 .section2 {
