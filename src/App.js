@@ -9,6 +9,14 @@ function App() {
 			<Section1 />
 			<Section2 />
 			<Section3 />
+			<footer className='attribution'>
+				<a
+					href='https://github.com/michaelbulaongdev/frontend-design-exercise-20230323'
+					target='_blank'
+					rel='noreferrer'>
+					made with ❤️ by michaelbulaongdev | github-repo
+				</a>
+			</footer>
 		</main>
 	);
 }

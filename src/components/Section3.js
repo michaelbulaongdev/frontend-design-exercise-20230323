@@ -12,8 +12,8 @@ export default function Section3() {
 						</th>
 						<th className='s3table-col2'>
 							<div>
-								<p>RTO2GO DIY</p>
-								<button>Get Started</button>
+								<p className='th-text'>RTO2GO DIY</p>
+								<button className='th-btn'>Get Started</button>
 							</div>
 						</th>
 						<th className='s3table-col3'>{null}</th>
@@ -21,8 +21,9 @@ export default function Section3() {
 					{tableList.map((item) => {
 						return (
 							<tr className='s3table-row' key={item.id}>
-								<td className='s3table-col1'>{item.col1}</td>
-								<td className='s3table-col2'>{item.col2}</td>
+								<td className='s3table-col1 col1-text'>{item.col1}</td>
+								<td className='s3table-col2 col2-text'>{item.col2}</td>
+								<td className='s3table-col3'>{null}</td>
 							</tr>
 						);
 					})}

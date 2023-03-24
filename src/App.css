@@ -33,6 +33,14 @@ p {
 	line-height: 1.3rem;
 }
 
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: none;
+}
+
 button {
 	min-width: 50px;
 	width: 140px;
@@ -42,7 +50,7 @@ button {
 	margin: 0 10px;
 	cursor: pointer;
 	font-weight: 600;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	transition: all 0.3s;
 }
 
@@ -182,6 +190,28 @@ button {
 	width: 100%;
 }
 
+.th-text {
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.th-btn {
+	position: relative;
+	bottom: 0.8rem;
+	border: 1px solid var(--lightGreen);
+	color: var(--lightGreen);
+	background-color: white;
+}
+
+.th-btn:hover {
+	background-color: var(--lightGreen);
+	color: white;
+}
+
+.s3table-row:nth-of-type(even) {
+	background-color: var(--lightBlue);
+}
+
 .s3table-col1 {
 	width: 50%;
 	text-align: left;
@@ -192,6 +222,25 @@ button {
 	text-align: center;
 }
 
-.s3table-row:nth-of-type(even) {
-	background-color: var(--lightBlue);
+.col1-text {
+	padding: 1rem;
+	padding-right: 10%;
+	font-size: 0.7rem;
+}
+
+.col2-text {
+	font-size: 0.6rem;
+}
+
+/* Footer */
+
+.attribution {
+	margin-top: 3vh;
+	font-size: 0.7rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+a {
+	color: var(--lightGreen);
 }
