@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/frontend-design-exercise-20230323/static/css/main.682c8305.css",
+    "main.js": "/frontend-design-exercise-20230323/static/js/main.05549ad6.js",
+    "static/js/787.43c51b3d.chunk.js": "/frontend-design-exercise-20230323/static/js/787.43c51b3d.chunk.js",
+    "static/media/pic1.jpg": "/frontend-design-exercise-20230323/static/media/pic1.d412ae10df0e582b21e8.jpg",
+    "index.html": "/frontend-design-exercise-20230323/index.html",
+    "main.682c8305.css.map": "/frontend-design-exercise-20230323/static/css/main.682c8305.css.map",
+    "main.05549ad6.js.map": "/frontend-design-exercise-20230323/static/js/main.05549ad6.js.map",
+    "787.43c51b3d.chunk.js.map": "/frontend-design-exercise-20230323/static/js/787.43c51b3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.682c8305.css",
+    "static/js/main.05549ad6.js"
+  ]
+}
