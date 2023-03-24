@@ -177,3 +177,21 @@ button {
 /* ========================= */
 /* Section 3
 /* ========================= */
+
+.s3table {
+	width: 100%;
+}
+
+.s3table-col1 {
+	width: 50%;
+	text-align: left;
+}
+
+.s3table-col2 {
+	width: 25%;
+	text-align: center;
+}
+
+.s3table-row:nth-of-type(even) {
+	background-color: var(--lightBlue);
+}
