@@ -14,7 +14,7 @@ function App() {
 					href='https://github.com/michaelbulaongdev/frontend-design-exercise-20230323'
 					target='_blank'
 					rel='noreferrer'>
-					made with ❤️ by michaelbulaongdev | github-repo
+					coded by michaelbulaongdev | github-repo
 				</a>
 			</footer>
 		</main>
